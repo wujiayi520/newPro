@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
+import javax.swing.event.ListDataListener;
 import javax.swing.plaf.basic.BasicComboBoxUI.ListDataHandler;
 
 import org.apache.http.NameValuePair;
@@ -52,6 +53,7 @@ public class test01 {
 		list.add("get");
 		for (int i = 0; i< list.size()+1; i++) {
 			list.get(i);
+			System.out.println(list.get(i));
 			
 		}
 	}
