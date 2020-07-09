@@ -57,5 +57,9 @@ public class test01 {
 			
 		}
 	}
+	@Test
+	public void test11() {
+		System.out.println("怎么谁是");
+	}
 
 }

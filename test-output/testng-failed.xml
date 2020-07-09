@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [测试集]">
+  <test thread-count="5" name="运行的测试类(failed)">
     <classes>
       <class name="runner.test03">
         <methods>
@@ -9,5 +9,5 @@
         </methods>
       </class> <!-- runner.test03 -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- 运行的测试类(failed) -->
+</suite> <!-- Failed suite [测试集] -->
