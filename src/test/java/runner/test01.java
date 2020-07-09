@@ -1,12 +1,15 @@
 package runner;
 
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+
+import javax.swing.plaf.basic.BasicComboBoxUI.ListDataHandler;
 
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
@@ -40,6 +43,16 @@ public class test01 {
 		Iterator<NameValuePair> iterator = list.iterator();
 		while(iterator.hasNext()) {
 			System.out.println(iterator.next());
+		}
+	}
+	@Test
+	public void test5() {
+		List<String> list=new ArrayList<>();
+		list.add("name");
+		list.add("get");
+		for (int i = 0; i< list.size()+1; i++) {
+			list.get(i);
+			
 		}
 	}
 
