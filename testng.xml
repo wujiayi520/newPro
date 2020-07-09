@@ -3,9 +3,9 @@
 <suite name="测试集">
 <test  name="运行的测试类">
 	<classes>
-		<class name="runner.test01">
-		<class name="runner.test03">
-		</class>
+		<class name="runner.test01"></class>
+		<class name="runner.test03"></class>
+		
 	</classes>
 </test>
 	
