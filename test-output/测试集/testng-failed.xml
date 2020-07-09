@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [测试集]">
+  <test thread-count="5" name="运行的测试类(failed)">
+    <classes>
+      <class name="runner.test01">
+        <methods>
+          <include name="nahao"/>
+        </methods>
+      </class> <!-- runner.test01 -->
+    </classes>
+  </test> <!-- 运行的测试类(failed) -->
+</suite> <!-- Failed suite [测试集] -->

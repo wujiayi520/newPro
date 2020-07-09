@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="测试集1">
+<test  name="运行的测试类1">
+	<classes>
+		<class name="runner.test02">
+		</class>
+	</classes>
+</test>
+	
+</suite>
